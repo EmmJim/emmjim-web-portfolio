@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation, Routes, Route } from 'react-router-dom';
+import { useLocation, Routes, Route, Navigate } from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion';
 import Home from '../screens/Home';
 import AboutMe from '../screens/AboutMe';
@@ -19,6 +19,7 @@ const AnimatedRoutes = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
         </AnimatePresence>
     )
