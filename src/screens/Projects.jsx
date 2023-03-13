@@ -7,6 +7,7 @@ import ImagenCryptomonedas from '../assets/cryptomonedas.png';
 import ImagenMern from '../assets/mern.png';
 import ImagenMoviesAPI from '../assets/logo.png';
 import ImagenCitas from '../assets/citas.png';
+import ImagenDoIt from '../assets/doit.png';
 import Project from '../components/Project';
 
 const projectsArray = [
@@ -51,6 +52,13 @@ const projectsArray = [
     title: 'Administrador de pacientes',
     description: 'Proyecto pequeño administrador de pacientes con ReactJS',
     href: 'https://brave-visvesvaraya-1ce9b4.netlify.app/'
+  },
+  {
+    imageName: ImagenDoIt,
+    imageAlt: 'Imagen Do it',
+    title: 'Do It!',
+    description: 'To Do Manager made with Mongo, Express, ReactJS and Node.js ',
+    href: 'https://ornate-mandazi-663ed7.netlify.app/'
   },
 ]
 
